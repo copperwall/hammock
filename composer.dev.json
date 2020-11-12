@@ -1,26 +1,26 @@
 {
-    "name": "quizlet/hammock",
-    "description": "Hammock is a stand-alone mocking library for Hacklang.",
-    "homepage": "https://github.com/quizlet/hammock",
-    "license": "MIT",
-    "authors": [{
-        "name": "Riya Dashoriya",
-        "email": "riya.dashoriya@quizlet.com"
-    }, {
-        "name": "Tyron Jung",
-        "email": "tyron.jung@quizlet.com"
-    }],
-    "keywords": ["hammock", "hack", "hacklang", "library", "mock", "mocking", "test", "testing", "php"],
-    "type": "library",
-    "require": {
-        "hhvm": ">=3.24",
-        "hhvm/hhvm-autoload": "^1|^2|^3",
-        "hhvm/hsl": ">=1.4 <5",
-        "quizlet/fb_intercept_polyfill": "^1|^2"
-    },
-    "require-dev": {
-        "facebook/fbexpect": ">=2",
-        "hhvm/hacktest": ">=1.2",
-        "hhvm/hhast": ">=3.27"
-    }
+  "name": "quizlet/hammock",
+  "description": "Hammock is a stand-alone mocking library for Hacklang.",
+  "homepage": "https://github.com/quizlet/hammock",
+  "license": "MIT",
+  "authors": [{
+    "name": "Riya Dashoriya",
+    "email": "riya.dashoriya@quizlet.com"
+  }, {
+  "name": "Tyron Jung",
+  "email": "tyron.jung@quizlet.com"
+  }],
+  "keywords": ["hammock", "hack", "hacklang", "library", "mock", "mocking", "test", "testing", "php"],
+  "type": "library",
+  "require": {
+    "hhvm": ">=3.24",
+    "hhvm/hhvm-autoload": "^1|^2|^3.1.5",
+    "hhvm/hsl": ">=1.4 <5",
+    "quizlet/fb_intercept_polyfill": "^1|^2"
+  },
+  "require-dev": {
+    "facebook/fbexpect": ">=2",
+    "hhvm/hacktest": ">=1.2",
+    "hhvm/hhast": ">=3.27"
+  }
 }
