@@ -6,8 +6,8 @@ hhvm --version
 php --version
 
 (
-  cd $(mktemp -d)
-  curl https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+cd $(mktemp -d)
+curl https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer --version=1.10.17
 )
 
 canruntests=$(hhvm --php -r "echo HHVM_VERSION_ID >= 32800 ? 'yes' : 'no';")
